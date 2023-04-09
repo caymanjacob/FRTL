@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const API_KEY = 'your_openai_api_key';
+const API_KEY = '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';
 const API_URL = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
 app.post('/api/gpt-4', async (req, res) => {
