@@ -1,0 +1,27 @@
+htmlCopy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fertilizer Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fertilizer Recommendation for Farmers</h1>
+    <form id="fertilizer-form">
+        <label for="crop-type">Crop Type:</label>
+        <input type="text" id="crop-type" name="crop-type" required>
+
+        <label for="soil-type">Soil Type:</label>
+        <input type="text" id="soil-type" name="soil-type" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+
+        <button type="submit">Get Recommendation</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
